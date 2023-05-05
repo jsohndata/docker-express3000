@@ -29,6 +29,8 @@ node_modules
 docker ps
 ```
 
+<br>
+
 ## Recipe (for Dockerfile)
 ```
 # Starting with base image of node 18
