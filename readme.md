@@ -1,4 +1,14 @@
 # Docker Practice
+Docker practice file for Cohort-10 (C-10) using Express.js.
+
+<br>
+
+## PreReu
+```
+npm install express cors nodemon
+```
+
+<br>
 
 ## Process
 1. Create .dockerignore
@@ -7,10 +17,16 @@ node_modules
 ```
 2. In package.json add...
 ```
-"start": "node index.js"
+"start": "nodemon index.js"
 ```
+* if no `nodemon` replace it with `node`
 
 <br>
+
+## Docker Process Status
+```
+docker ps
+```
 
 ## Recipe (for Dockerfile)
 ```
@@ -49,5 +65,23 @@ docker build -t "test-api":0.1 .
 ```
 docker run -p 3005:3000 "test-api":0.1
 ```
-* 3005 => virtual port to access port 3000 that's in the image
+* 3005 => port to access container's port 3000 that's in the image
 
+<br>
+
+## Terminate
+```
+docker kill $TITLE
+```
+
+$TITLE => Name of your container or Container Id.
+
+
+##
+```
+docker run -p 3010:3000 -v 
+```
+`-p`: Map the port to the container's port $FULL_URI:/src "test-api":0.2
+```
+
+$FULL_URI => full URI to your location. Type `pwd`, copy paste the URI
