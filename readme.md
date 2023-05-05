@@ -1,4 +1,5 @@
 # Docker Practice
+![Star Trek](./images/whale-fin.webp)
 Docker practice file for Cohort-10 (C-10) using Express.js.
 
 <br>
