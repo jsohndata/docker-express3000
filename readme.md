@@ -4,7 +4,7 @@ Docker practice file for Cohort-10 (C-10) using Express.js.
 
 <br>
 
-## PreReu
+## PreReq
 ```
 npm install express cors nodemon
 ```
